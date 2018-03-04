@@ -1,0 +1,116 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:SFUSat
+LIBS:SFUSat-power
+LIBS:SFUSat-cap
+LIBS:SFUSat-ind
+LIBS:SFUSat-res
+LIBS:Battery-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 2
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L PC104PTH J2
+U 1 1 5A9BB915
+P 1600 900
+F 0 "J2" H 1600 750 60  0000 C CNN
+F 1 "PC104PTH" H 1600 1050 60  0000 C CNN
+F 2 "SFUSat:PC104PTH" H 1600 900 60  0001 C CNN
+F 3 "" H 1600 900 60  0001 C CNN
+	1    1600 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L PC104PTH J3
+U 1 1 5A9BB9D5
+P 1600 1325
+F 0 "J3" H 1600 1175 60  0000 C CNN
+F 1 "PC104PTH" H 1600 1475 60  0000 C CNN
+F 2 "SFUSat:PC104PTH" H 1600 1325 60  0001 C CNN
+F 3 "" H 1600 1325 60  0001 C CNN
+	1    1600 1325
+	1    0    0    -1  
+$EndComp
+$Comp
+L PC104PTH J4
+U 1 1 5A9BBA11
+P 1600 1750
+F 0 "J4" H 1600 1600 60  0000 C CNN
+F 1 "PC104PTH" H 1600 1900 60  0000 C CNN
+F 2 "SFUSat:PC104PTH" H 1600 1750 60  0001 C CNN
+F 3 "" H 1600 1750 60  0001 C CNN
+	1    1600 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L PC104PTH J5
+U 1 1 5A9BBA54
+P 1600 2125
+F 0 "J5" H 1600 1975 60  0000 C CNN
+F 1 "PC104PTH" H 1600 2275 60  0000 C CNN
+F 2 "SFUSat:PC104PTH" H 1600 2125 60  0001 C CNN
+F 3 "" H 1600 2125 60  0001 C CNN
+	1    1600 2125
+	1    0    0    -1  
+$EndComp
+$Comp
+L PC104-8BIT J1
+U 1 1 5A9BBAA8
+P 2650 2250
+F 0 "J1" H 2900 600 60  0000 C CNN
+F 1 "PC104-8BIT" H 2600 4000 60  0000 C CNN
+F 2 "SFUSat:PC104-8bit" H 2650 3250 60  0001 C CNN
+F 3 "" H 2650 3250 60  0001 C CNN
+	1    2650 2250
+	1    0    0    -1  
+$EndComp
+$Sheet
+S 4800 1725 900  375 
+U 5A9B3DD6
+F0 "SeriesBatteryCell" 60
+F1 "SeriesBatteryCell.sch" 60
+F2 "PACK+" O R 5700 1825 60 
+F3 "PACK-" O R 5700 2000 60 
+F4 "CB_EN" I L 4800 2000 60 
+F5 "OUTPUT" O L 4800 1825 60 
+$EndSheet
+$EndSCHEMATC
