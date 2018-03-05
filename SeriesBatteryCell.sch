@@ -64,11 +64,13 @@ AR Path="/5A9B3DD6/5A838F04" Ref="U1"  Part="1"
 F 0 "U1" H 5600 3150 60  0000 C CNN
 F 1 "BQ29209" H 6250 2350 60  0000 C CNN
 F 2 "" H 6050 2400 60  0001 C CNN
-F 3 "" H 6050 2400 60  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Texas%20Instruments%20PDFs/BQ29200,09.pdf" H 6050 2400 60  0001 C CNN
+F 4 "296-27677-1-ND" H 5950 2750 60  0001 C CNN "Digikey"
+F 5 "BQ29209DRBR" H 5950 2750 60  0001 C CNN "PN"
 	1    5950 2750
 	1    0    0    -1  
 $EndComp
-Text HLabel 6700 2850 2    60   Input ~ 0
+Text HLabel 7150 2750 2    60   Input ~ 0
 CB_EN
 $Comp
 L C C43
@@ -115,7 +117,7 @@ AR Path="/5A843744/5A848194/5A83B33A" Ref="R41"  Part="1"
 AR Path="/5A9B3DD6/5A83B33A" Ref="R29"  Part="1" 
 F 0 "R29" V 4730 2250 50  0000 C CNN
 F 1 "160R" V 4650 2250 50  0000 C CNN
-F 2 "" V 4580 2250 50  0001 C CNN
+F 2 "SFUSat_Resistor:R_0402" V 4580 2250 50  0001 C CNN
 F 3 "" H 4650 2250 50  0000 C CNN
 	1    4650 2250
 	0    1    1    0   
@@ -131,7 +133,7 @@ AR Path="/5A843744/5A848194/5A83B4AD" Ref="R42"  Part="1"
 AR Path="/5A9B3DD6/5A83B4AD" Ref="R30"  Part="1" 
 F 0 "R30" V 4730 2650 50  0000 C CNN
 F 1 "260R" V 4650 2650 50  0000 C CNN
-F 2 "" V 4580 2650 50  0001 C CNN
+F 2 "SFUSat_Resistor:R_0402" V 4580 2650 50  0001 C CNN
 F 3 "" H 4650 2650 50  0000 C CNN
 	1    4650 2650
 	0    1    1    0   
@@ -168,27 +170,6 @@ F 3 "" H 5250 3200 50  0000 C CNN
 	1    5250 3200
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3875 3400 7800 3400
-Wire Wire Line
-	6650 2850 6700 2850
-Wire Wire Line
-	6650 2650 7400 2650
-Wire Wire Line
-	7400 2550 7400 2750
-Wire Wire Line
-	7400 3050 7400 3400
-Connection ~ 7400 3400
-Connection ~ 7400 2650
-Wire Wire Line
-	7400 2250 7400 2150
-Connection ~ 7400 2150
-Wire Wire Line
-	3875 2150 7800 2150
-Wire Wire Line
-	6650 2450 6700 2450
-Wire Wire Line
-	5300 3050 5250 3050
 $Comp
 L C C41
 U 1 1 5A83B85F
@@ -221,6 +202,66 @@ F 3 "" H 4900 2450 50  0000 C CNN
 	1    4900 2450
 	1    0    0    -1  
 $EndComp
+$Comp
+L Battery_Cell BT1
+U 1 1 5A9B4A08
+P 3875 2575
+F 0 "BT1" H 3975 2675 50  0000 L CNN
+F 1 "Battery_Cell" H 3975 2575 50  0000 L CNN
+F 2 "SFUSat:1042-BattHolder" V 3875 2635 50  0001 C CNN
+F 3 "http://www.keyelco.com/product-pdf.cfm?p=918" V 3875 2635 50  0001 C CNN
+F 4 "36-1042-ND" H 3875 2575 60  0001 C CNN "Digikey"
+	1    3875 2575
+	1    0    0    -1  
+$EndComp
+$Comp
+L Battery_Cell BT2
+U 1 1 5A9B4A10
+P 3875 3125
+F 0 "BT2" H 3975 3225 50  0000 L CNN
+F 1 "Battery_Cell" H 3975 3125 50  0000 L CNN
+F 2 "SFUSat:1042-BattHolder" V 3875 3185 50  0001 C CNN
+F 3 "http://www.keyelco.com/product-pdf.cfm?p=918" V 3875 3185 50  0001 C CNN
+F 4 "36-1042-ND" H 3875 3125 60  0001 C CNN "Digikey"
+	1    3875 3125
+	1    0    0    -1  
+$EndComp
+Text Notes 3050 2525 0    60   ~ 0
+4.35V maximum
+Text Notes 3050 3100 0    60   ~ 0
+4.35V maximum
+$Comp
+L R R?
+U 1 1 5A9CF3D0
+P 7150 3025
+F 0 "R?" V 7230 3025 50  0000 C CNN
+F 1 "1K0" V 7150 3025 50  0000 C CNN
+F 2 "SFUSat_Resistor:R_0402" V 7080 3025 50  0001 C CNN
+F 3 "" H 7150 3025 50  0001 C CNN
+	1    7150 3025
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3875 3400 7800 3400
+Wire Wire Line
+	6650 2850 7150 2850
+Wire Wire Line
+	6650 2650 7400 2650
+Wire Wire Line
+	7400 2550 7400 2750
+Wire Wire Line
+	7400 3050 7400 3400
+Connection ~ 7400 3400
+Connection ~ 7400 2650
+Wire Wire Line
+	7400 2250 7400 2150
+Connection ~ 7400 2150
+Wire Wire Line
+	3875 2150 7800 2150
+Wire Wire Line
+	6650 2450 6700 2450
+Wire Wire Line
+	5300 3050 5250 3050
 Wire Wire Line
 	5250 2450 5300 2450
 Wire Wire Line
@@ -255,25 +296,6 @@ Connection ~ 4450 2800
 Wire Wire Line
 	6650 3050 6700 3050
 Wire Wire Line
-	6700 3050 6700 3500
-Connection ~ 6700 3400
-$Comp
-L GND #PWR019
-U 1 1 5A83C451
-P 6700 3500
-AR Path="/5A843744/5A846569/5A83C451" Ref="#PWR019"  Part="1" 
-AR Path="/5A843744/5A8452EE/5A83C451" Ref="#PWR018"  Part="1" 
-AR Path="/5A843744/5A846CEE/5A83C451" Ref="#PWR020"  Part="1" 
-AR Path="/5A843744/5A848194/5A83C451" Ref="#PWR021"  Part="1" 
-AR Path="/5A9B3DD6/5A83C451" Ref="#PWR018"  Part="1" 
-F 0 "#PWR018" H 6700 3250 50  0001 C CNN
-F 1 "GND" H 6700 3350 50  0000 C CNN
-F 2 "" H 6700 3500 50  0000 C CNN
-F 3 "" H 6700 3500 50  0000 C CNN
-	1    6700 3500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
 	4500 2250 3875 2250
 Wire Wire Line
 	3875 2150 3875 2375
@@ -283,28 +305,37 @@ Wire Wire Line
 Connection ~ 3875 2800
 Wire Wire Line
 	3875 3225 3875 3400
+Wire Wire Line
+	6700 3050 6700 3400
+Connection ~ 6700 3400
+Text Notes 3525 1625 0    60   ~ 0
+Cell 2 Balancing I = VC1/Rcb = 4.2V/260R = 16mA\nCell 1 Balancing I = (VC2-VC1)/(Rcb+Rvd)
+Text Notes 4650 3750 0    60   ~ 0
+protection delay = C * X = 0.33uF * 9s/uF = 3 seconds
+Text Notes 1600 2900 0    60   ~ 0
+Cell Connection \nSequence:\n1. GND\n2. BT2\n3. BT1
 $Comp
-L Battery_Cell BT1
-U 1 1 5A9B4A08
-P 3875 2575
-F 0 "BT1" H 3975 2675 50  0000 L CNN
-F 1 "Battery_Cell" H 3975 2575 50  0000 L CNN
-F 2 "SFUSat:1042-BattHolder" V 3875 2635 50  0001 C CNN
-F 3 "http://www.keyelco.com/product-pdf.cfm?p=918" V 3875 2635 50  0001 C CNN
-F 4 "36-1042-ND" H 3875 2575 60  0001 C CNN "Digikey"
-	1    3875 2575
+L R R?
+U 1 1 5A9CF95F
+P 7150 2400
+F 0 "R?" V 7230 2400 50  0000 C CNN
+F 1 "DNP" V 7150 2400 50  0000 C CNN
+F 2 "SFUSat_Resistor:R_0402" V 7080 2400 50  0001 C CNN
+F 3 "" H 7150 2400 50  0001 C CNN
+	1    7150 2400
 	1    0    0    -1  
 $EndComp
-$Comp
-L Battery_Cell BT2
-U 1 1 5A9B4A10
-P 3875 3125
-F 0 "BT2" H 3975 3225 50  0000 L CNN
-F 1 "Battery_Cell" H 3975 3125 50  0000 L CNN
-F 2 "SFUSat:1042-BattHolder" V 3875 3185 50  0001 C CNN
-F 3 "http://www.keyelco.com/product-pdf.cfm?p=918" V 3875 3185 50  0001 C CNN
-F 4 "36-1042-ND" H 3875 3125 60  0001 C CNN "Digikey"
-	1    3875 3125
-	1    0    0    -1  
-$EndComp
+Wire Wire Line
+	7150 3175 7150 3400
+Connection ~ 7150 3400
+Wire Wire Line
+	7150 2875 7150 2550
+Wire Wire Line
+	7150 2250 7150 2150
+Connection ~ 7150 2150
+Connection ~ 7150 2850
+Text Notes 6725 1725 0    60   ~ 0
+At low SoC cell balancing should be \ndisabled to avoid premature discharge.
+Text Notes 3900 1950 0    60   ~ 0
+What is the max current through these resistors?
 $EndSCHEMATC
