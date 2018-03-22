@@ -1,0 +1,1255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/tobi/Cubesat/Battery/Battery.sch</source>
+    <date>Tue 20 Mar 2018 07:57:42 PM PDT</date>
+    <tool>Eeschema 4.0.7-e2-6376~58~ubuntu16.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Battery.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/SeriesBatteryCell/" tstamps="/5A9B3DD6/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>SeriesBatteryCell.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="J2">
+      <value>PC104PTH</value>
+      <footprint>SFUSat:PC104PTH</footprint>
+      <libsource lib="SFUSat" part="PC104PTH"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A9BB915</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>PC104PTH</value>
+      <footprint>SFUSat:PC104PTH</footprint>
+      <libsource lib="SFUSat" part="PC104PTH"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A9BB9D5</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>PC104PTH</value>
+      <footprint>SFUSat:PC104PTH</footprint>
+      <libsource lib="SFUSat" part="PC104PTH"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A9BBA11</tstamp>
+    </comp>
+    <comp ref="J5">
+      <value>PC104PTH</value>
+      <footprint>SFUSat:PC104PTH</footprint>
+      <libsource lib="SFUSat" part="PC104PTH"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A9BBA54</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>PC104-8BIT</value>
+      <footprint>SFUSat:PC104-8bit</footprint>
+      <libsource lib="SFUSat" part="PC104-8BIT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A9BBAA8</tstamp>
+    </comp>
+    <comp ref="J6">
+      <value>B3B-XH-A(LF)(SN)</value>
+      <footprint>SFUSat:B3B-XH-A</footprint>
+      <fields>
+        <field name="Applications">-</field>
+        <field name="Categories">Connectors, Interconnects - Rectangular Connectors - Headers, Male Pins</field>
+        <field name="Connector Type">Header</field>
+        <field name="Contact Finish - Mating">Tin</field>
+        <field name="Contact Finish - Post">Tin</field>
+        <field name="Contact Finish Thickness - Mating">-</field>
+        <field name="Contact Finish Thickness - Post">-</field>
+        <field name="Contact Length - Mating">-</field>
+        <field name="Contact Length - Post">0.134" (3.40mm)</field>
+        <field name="Contact Material">Brass</field>
+        <field name="Contact Shape">Square</field>
+        <field name="Contact Type">Male Pin</field>
+        <field name="Current Rating">3A</field>
+        <field name="Fastening Type">Detent Lock</field>
+        <field name="Features">-</field>
+        <field name="Ingress Protection">-</field>
+        <field name="Insulation Color">Natural</field>
+        <field name="Insulation Height">0.276" (7.00mm)</field>
+        <field name="Insulation Material">Polyamide (PA66), Nylon 6/6</field>
+        <field name="Lead Free Status / RoHS Status">Lead free / RoHS Compliant</field>
+        <field name="Manufacturer 1">JST Sales America Inc.</field>
+        <field name="Manufacturer Part Number 1">B3B-XH-A(LF)(SN)</field>
+        <field name="Manufacturer Standard Lead Time 1">14 Weeks</field>
+        <field name="Mated Stacking Heights">9.8mm</field>
+        <field name="Material Flammability Rating">UL94 V-0</field>
+        <field name="Mounting Type">Through Hole</field>
+        <field name="Number of Positions">3</field>
+        <field name="Number of Positions Loaded">All</field>
+        <field name="Number of Rows">1</field>
+        <field name="Operating Temperature">-25°C ~ 85°C</field>
+        <field name="Overall Contact Length">-</field>
+        <field name="Part Status">Active</field>
+        <field name="Pitch - Mating">0.098" (2.50mm)</field>
+        <field name="Row Spacing - Mating">-</field>
+        <field name="Series">XH</field>
+        <field name="Shrouding">Shrouded - 4 Wall</field>
+        <field name="Style">Board to Cable/Wire</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier Part Number 1">455-2248-ND</field>
+        <field name="Termination">Press-Fit, Solder</field>
+        <field name="Voltage Rating">250V</field>
+        <field name="Mating Part Number">XHP-3</field>
+        <field name="Mating Part Digikey">455-2219-ND</field>
+      </fields>
+      <libsource lib="SFUSat" part="B3B-XH-A(LF)(SN)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AA36CF4</tstamp>
+    </comp>
+    <comp ref="J7">
+      <value>TEST_1P</value>
+      <footprint>SFUSat:Measurement_Point_Round-SMD-Pad_Big</footprint>
+      <libsource lib="conn" part="TEST_1P"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AA39E05</tstamp>
+    </comp>
+    <comp ref="J8">
+      <value>TEST_1P</value>
+      <footprint>SFUSat:Measurement_Point_Round-SMD-Pad_Big</footprint>
+      <libsource lib="conn" part="TEST_1P"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AA3A46E</tstamp>
+    </comp>
+    <comp ref="J9">
+      <value>TEST_1P</value>
+      <footprint>SFUSat:Measurement_Point_Round-SMD-Pad_Big</footprint>
+      <libsource lib="conn" part="TEST_1P"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AA3B049</tstamp>
+    </comp>
+    <comp ref="J10">
+      <value>TEST_1P</value>
+      <footprint>SFUSat:Measurement_Point_Round-SMD-Pad_Big</footprint>
+      <libsource lib="conn" part="TEST_1P"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AA3B15D</tstamp>
+    </comp>
+    <comp ref="J11">
+      <value>B3B-XH-A(LF)(SN)</value>
+      <footprint>SFUSat:B3B-XH-A</footprint>
+      <fields>
+        <field name="Applications">-</field>
+        <field name="Categories">Connectors, Interconnects - Rectangular Connectors - Headers, Male Pins</field>
+        <field name="Connector Type">Header</field>
+        <field name="Contact Finish - Mating">Tin</field>
+        <field name="Contact Finish - Post">Tin</field>
+        <field name="Contact Finish Thickness - Mating">-</field>
+        <field name="Contact Finish Thickness - Post">-</field>
+        <field name="Contact Length - Mating">-</field>
+        <field name="Contact Length - Post">0.134" (3.40mm)</field>
+        <field name="Contact Material">Brass</field>
+        <field name="Contact Shape">Square</field>
+        <field name="Contact Type">Male Pin</field>
+        <field name="Current Rating">3A</field>
+        <field name="Fastening Type">Detent Lock</field>
+        <field name="Features">-</field>
+        <field name="Ingress Protection">-</field>
+        <field name="Insulation Color">Natural</field>
+        <field name="Insulation Height">0.276" (7.00mm)</field>
+        <field name="Insulation Material">Polyamide (PA66), Nylon 6/6</field>
+        <field name="Lead Free Status / RoHS Status">Lead free / RoHS Compliant</field>
+        <field name="Manufacturer 1">JST Sales America Inc.</field>
+        <field name="Manufacturer Part Number 1">B3B-XH-A(LF)(SN)</field>
+        <field name="Manufacturer Standard Lead Time 1">14 Weeks</field>
+        <field name="Mated Stacking Heights">9.8mm</field>
+        <field name="Material Flammability Rating">UL94 V-0</field>
+        <field name="Mounting Type">Through Hole</field>
+        <field name="Number of Positions">3</field>
+        <field name="Number of Positions Loaded">All</field>
+        <field name="Number of Rows">1</field>
+        <field name="Operating Temperature">-25°C ~ 85°C</field>
+        <field name="Overall Contact Length">-</field>
+        <field name="Part Status">Active</field>
+        <field name="Pitch - Mating">0.098" (2.50mm)</field>
+        <field name="Row Spacing - Mating">-</field>
+        <field name="Series">XH</field>
+        <field name="Shrouding">Shrouded - 4 Wall</field>
+        <field name="Style">Board to Cable/Wire</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier Part Number 1">455-2248-ND</field>
+        <field name="Termination">Press-Fit, Solder</field>
+        <field name="Voltage Rating">250V</field>
+        <field name="Mating Part Number">XHP-3</field>
+        <field name="Mating Part Digikey">455-2219-ND</field>
+      </fields>
+      <libsource lib="SFUSat" part="B3B-XH-A(LF)(SN)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AA5D067</tstamp>
+    </comp>
+    <comp ref="J12">
+      <value>B3B-XH-A(LF)(SN)</value>
+      <footprint>SFUSat:B3B-XH-A</footprint>
+      <fields>
+        <field name="Applications">-</field>
+        <field name="Categories">Connectors, Interconnects - Rectangular Connectors - Headers, Male Pins</field>
+        <field name="Connector Type">Header</field>
+        <field name="Contact Finish - Mating">Tin</field>
+        <field name="Contact Finish - Post">Tin</field>
+        <field name="Contact Finish Thickness - Mating">-</field>
+        <field name="Contact Finish Thickness - Post">-</field>
+        <field name="Contact Length - Mating">-</field>
+        <field name="Contact Length - Post">0.134" (3.40mm)</field>
+        <field name="Contact Material">Brass</field>
+        <field name="Contact Shape">Square</field>
+        <field name="Contact Type">Male Pin</field>
+        <field name="Current Rating">3A</field>
+        <field name="Fastening Type">Detent Lock</field>
+        <field name="Features">-</field>
+        <field name="Ingress Protection">-</field>
+        <field name="Insulation Color">Natural</field>
+        <field name="Insulation Height">0.276" (7.00mm)</field>
+        <field name="Insulation Material">Polyamide (PA66), Nylon 6/6</field>
+        <field name="Lead Free Status / RoHS Status">Lead free / RoHS Compliant</field>
+        <field name="Manufacturer 1">JST Sales America Inc.</field>
+        <field name="Manufacturer Part Number 1">B3B-XH-A(LF)(SN)</field>
+        <field name="Manufacturer Standard Lead Time 1">14 Weeks</field>
+        <field name="Mated Stacking Heights">9.8mm</field>
+        <field name="Material Flammability Rating">UL94 V-0</field>
+        <field name="Mounting Type">Through Hole</field>
+        <field name="Number of Positions">3</field>
+        <field name="Number of Positions Loaded">All</field>
+        <field name="Number of Rows">1</field>
+        <field name="Operating Temperature">-25°C ~ 85°C</field>
+        <field name="Overall Contact Length">-</field>
+        <field name="Part Status">Active</field>
+        <field name="Pitch - Mating">0.098" (2.50mm)</field>
+        <field name="Row Spacing - Mating">-</field>
+        <field name="Series">XH</field>
+        <field name="Shrouding">Shrouded - 4 Wall</field>
+        <field name="Style">Board to Cable/Wire</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier Part Number 1">455-2248-ND</field>
+        <field name="Termination">Press-Fit, Solder</field>
+        <field name="Voltage Rating">250V</field>
+        <field name="Mating Part Number">XHP-3</field>
+        <field name="Mating Part Digikey">455-2219-ND</field>
+      </fields>
+      <libsource lib="SFUSat" part="B3B-XH-A(LF)(SN)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AAAFA72</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>DNP</value>
+      <footprint>SFUSat-res:R_0603</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AAB462D</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>BQ29209</value>
+      <footprint>SFUSat:VDFN-8</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Texas%20Instruments%20PDFs/BQ29200,09.pdf</datasheet>
+      <fields>
+        <field name="Digikey">296-27677-1-ND</field>
+        <field name="PN">BQ29209DRBR</field>
+      </fields>
+      <libsource lib="SFUSat-power" part="BQ29209"/>
+      <sheetpath names="/SeriesBatteryCell/" tstamps="/5A9B3DD6/"/>
+      <tstamp>5A838F04</tstamp>
+    </comp>
+    <comp ref="BT1">
+      <value>Battery_Cell</value>
+      <footprint>SFUSat:1042-BattHolder</footprint>
+      <datasheet>http://www.keyelco.com/product-pdf.cfm?p=918</datasheet>
+      <fields>
+        <field name="Digikey">36-1042-ND</field>
+      </fields>
+      <libsource lib="device" part="Battery_Cell"/>
+      <sheetpath names="/SeriesBatteryCell/" tstamps="/5A9B3DD6/"/>
+      <tstamp>5A9B4A08</tstamp>
+    </comp>
+    <comp ref="BT2">
+      <value>Battery_Cell</value>
+      <footprint>SFUSat:1042-BattHolder</footprint>
+      <datasheet>http://www.keyelco.com/product-pdf.cfm?p=918</datasheet>
+      <fields>
+        <field name="Digikey">36-1042-ND</field>
+      </fields>
+      <libsource lib="device" part="Battery_Cell"/>
+      <sheetpath names="/SeriesBatteryCell/" tstamps="/5A9B3DD6/"/>
+      <tstamp>5A9B4A10</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>DNP</value>
+      <footprint>SFUSat-res:R_0402</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/SeriesBatteryCell/" tstamps="/5A9B3DD6/"/>
+      <tstamp>5A9CF95F</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>100R</value>
+      <footprint>SFUSat-res:R_0603</footprint>
+      <fields>
+        <field name="Categories">Resistors - Chip Resistor - Surface Mount</field>
+        <field name="Composition">Thick Film</field>
+        <field name="Failure Rate">-</field>
+        <field name="Features">-</field>
+        <field name="Height - Seated (Max)">0.022" (0.55mm)</field>
+        <field name="Lead Free Status / RoHS Status">Lead free / RoHS Compliant</field>
+        <field name="Manufacturer 1">Vishay Dale</field>
+        <field name="Manufacturer Part Number 1">CRCW0603100RFKEAC</field>
+        <field name="Number of Terminations">2</field>
+        <field name="Package / Case">0603 (1608 Metric)</field>
+        <field name="Part Status">Active</field>
+        <field name="Power (Watts)">0.1W, 1/10W</field>
+        <field name="Resistance">100 Ohms</field>
+        <field name="Series">CRCW-C</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier Device Package">0603</field>
+        <field name="Supplier Part Number 1">541-3951-1-ND</field>
+      </fields>
+      <libsource lib="SFUSat-res" part="R_100R0_1%_0.1W_0603"/>
+      <sheetpath names="/SeriesBatteryCell/" tstamps="/5A9B3DD6/"/>
+      <tstamp>5AA365FF</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>0.1uF</value>
+      <footprint>SFUSat-cap:C_0603</footprint>
+      <fields>
+        <field name="Applications">General Purpose</field>
+        <field name="Capacitance">0.1µF</field>
+        <field name="Categories">Capacitors - Ceramic Capacitors</field>
+        <field name="Features">-</field>
+        <field name="Height - Seated (Max)">-</field>
+        <field name="Lead Free Status / RoHS Status">Lead free / RoHS Compliant</field>
+        <field name="Lead Spacing">-</field>
+        <field name="Lead Style">-</field>
+        <field name="Manufacturer 1">Murata Electronics North America</field>
+        <field name="Manufacturer Part Number 1">GRM188R71E104KA01D</field>
+        <field name="Mounting Type">Surface Mount, MLCC</field>
+        <field name="Operating Temperature">-55°C ~ 125°C</field>
+        <field name="Package / Case">0603 (1608 Metric)</field>
+        <field name="Part Status">Active</field>
+        <field name="Ratings">-</field>
+        <field name="Series">GRM</field>
+        <field name="Size / Dimension">0.063" L x 0.032" W (1.60mm x 0.80mm)</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier Part Number 1">490-1524-1-ND</field>
+        <field name="Temperature Coefficient">X7R</field>
+        <field name="Thickness (Max)">0.035" (0.90mm)</field>
+        <field name="Tolerance">±10%</field>
+        <field name="Voltage - Rated">25V</field>
+      </fields>
+      <libsource lib="SFUSat-cap" part="C_100n0_10%_25V_X7R_0603"/>
+      <sheetpath names="/SeriesBatteryCell/" tstamps="/5A9B3DD6/"/>
+      <tstamp>5AA36712</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>100R</value>
+      <footprint>SFUSat-res:R_0603</footprint>
+      <fields>
+        <field name="Categories">Resistors - Chip Resistor - Surface Mount</field>
+        <field name="Composition">Thick Film</field>
+        <field name="Failure Rate">-</field>
+        <field name="Features">-</field>
+        <field name="Height - Seated (Max)">0.022" (0.55mm)</field>
+        <field name="Lead Free Status / RoHS Status">Lead free / RoHS Compliant</field>
+        <field name="Manufacturer 1">Vishay Dale</field>
+        <field name="Manufacturer Part Number 1">CRCW0603100RFKEAC</field>
+        <field name="Number of Terminations">2</field>
+        <field name="Package / Case">0603 (1608 Metric)</field>
+        <field name="Part Status">Active</field>
+        <field name="Power (Watts)">0.1W, 1/10W</field>
+        <field name="Resistance">100 Ohms</field>
+        <field name="Series">CRCW-C</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier Device Package">0603</field>
+        <field name="Supplier Part Number 1">541-3951-1-ND</field>
+      </fields>
+      <libsource lib="SFUSat-res" part="R_100R0_1%_0.1W_0603"/>
+      <sheetpath names="/SeriesBatteryCell/" tstamps="/5A9B3DD6/"/>
+      <tstamp>5AA35F69</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>0.1uF</value>
+      <footprint>SFUSat-cap:C_0603</footprint>
+      <fields>
+        <field name="Applications">General Purpose</field>
+        <field name="Capacitance">0.1µF</field>
+        <field name="Categories">Capacitors - Ceramic Capacitors</field>
+        <field name="Features">-</field>
+        <field name="Height - Seated (Max)">-</field>
+        <field name="Lead Free Status / RoHS Status">Lead free / RoHS Compliant</field>
+        <field name="Lead Spacing">-</field>
+        <field name="Lead Style">-</field>
+        <field name="Manufacturer 1">Murata Electronics North America</field>
+        <field name="Manufacturer Part Number 1">GRM188R71E104KA01D</field>
+        <field name="Mounting Type">Surface Mount, MLCC</field>
+        <field name="Operating Temperature">-55°C ~ 125°C</field>
+        <field name="Package / Case">0603 (1608 Metric)</field>
+        <field name="Part Status">Active</field>
+        <field name="Ratings">-</field>
+        <field name="Series">GRM</field>
+        <field name="Size / Dimension">0.063" L x 0.032" W (1.60mm x 0.80mm)</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier Part Number 1">490-1524-1-ND</field>
+        <field name="Temperature Coefficient">X7R</field>
+        <field name="Thickness (Max)">0.035" (0.90mm)</field>
+        <field name="Tolerance">±10%</field>
+        <field name="Voltage - Rated">25V</field>
+      </fields>
+      <libsource lib="SFUSat-cap" part="C_100n0_10%_25V_X7R_0603"/>
+      <sheetpath names="/SeriesBatteryCell/" tstamps="/5A9B3DD6/"/>
+      <tstamp>5AA361EF</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>0.1uF</value>
+      <footprint>SFUSat-cap:C_0603</footprint>
+      <fields>
+        <field name="Applications">General Purpose</field>
+        <field name="Capacitance">0.1µF</field>
+        <field name="Categories">Capacitors - Ceramic Capacitors</field>
+        <field name="Features">-</field>
+        <field name="Height - Seated (Max)">-</field>
+        <field name="Lead Free Status / RoHS Status">Lead free / RoHS Compliant</field>
+        <field name="Lead Spacing">-</field>
+        <field name="Lead Style">-</field>
+        <field name="Manufacturer 1">Murata Electronics North America</field>
+        <field name="Manufacturer Part Number 1">GRM188R71E104KA01D</field>
+        <field name="Mounting Type">Surface Mount, MLCC</field>
+        <field name="Operating Temperature">-55°C ~ 125°C</field>
+        <field name="Package / Case">0603 (1608 Metric)</field>
+        <field name="Part Status">Active</field>
+        <field name="Ratings">-</field>
+        <field name="Series">GRM</field>
+        <field name="Size / Dimension">0.063" L x 0.032" W (1.60mm x 0.80mm)</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier Part Number 1">490-1524-1-ND</field>
+        <field name="Temperature Coefficient">X7R</field>
+        <field name="Thickness (Max)">0.035" (0.90mm)</field>
+        <field name="Tolerance">±10%</field>
+        <field name="Voltage - Rated">25V</field>
+      </fields>
+      <libsource lib="SFUSat-cap" part="C_100n0_10%_25V_X7R_0603"/>
+      <sheetpath names="/SeriesBatteryCell/" tstamps="/5A9B3DD6/"/>
+      <tstamp>5AA36297</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>250R</value>
+      <footprint>SFUSat-res:R_0603</footprint>
+      <fields>
+        <field name="Categories">Resistors - Chip Resistor - Surface Mount</field>
+        <field name="Composition">Thin Film</field>
+        <field name="Failure Rate">-</field>
+        <field name="Features">Automotive AEC-Q200</field>
+        <field name="Height - Seated (Max)">0.022" (0.55mm)</field>
+        <field name="Lead Free Status / RoHS Status">Lead free / RoHS Compliant</field>
+        <field name="Manufacturer 1">Stackpole Electronics Inc.</field>
+        <field name="Manufacturer Part Number 1">RNCF0603TKY250R</field>
+        <field name="Manufacturer Standard Lead Time 1">10 Weeks</field>
+        <field name="Number of Terminations">2</field>
+        <field name="Operating Temperature">-55°C ~ 155°C</field>
+        <field name="Package / Case">0603 (1608 Metric)</field>
+        <field name="Part Status">Active</field>
+        <field name="Power (Watts)">0.1W, 1/10W</field>
+        <field name="Resistance">250 Ohms</field>
+        <field name="Series">RNCF</field>
+        <field name="Size / Dimension">0.061" L x 0.031" W (1.55mm x 0.80mm)</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier Device Package">0603</field>
+        <field name="Supplier Part Number 1">RNCF0603TKY250RCT-ND</field>
+        <field name="Temperature Coefficient">±5ppm/°C</field>
+        <field name="Tolerance">±0.01%</field>
+      </fields>
+      <libsource lib="SFUSat-res" part="R_250R0_0.01%_0.1W_0603"/>
+      <sheetpath names="/SeriesBatteryCell/" tstamps="/5A9B3DD6/"/>
+      <tstamp>5AA3637A</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>160R</value>
+      <footprint>SFUSat-res:R_0603</footprint>
+      <fields>
+        <field name="Categories">Resistors - Chip Resistor - Surface Mount</field>
+        <field name="Composition">Thick Film</field>
+        <field name="Failure Rate">-</field>
+        <field name="Features">Moisture Resistant</field>
+        <field name="Height - Seated (Max)">0.022" (0.55mm)</field>
+        <field name="Lead Free Status / RoHS Status">Lead free / RoHS Compliant</field>
+        <field name="Manufacturer 1">Yageo</field>
+        <field name="Manufacturer Part Number 1">RC0603JR-07160RL</field>
+        <field name="Manufacturer Standard Lead Time 1">23 Weeks</field>
+        <field name="Number of Terminations">2</field>
+        <field name="Operating Temperature">-55°C ~ 155°C</field>
+        <field name="Package / Case">0603 (1608 Metric)</field>
+        <field name="Part Status">Active</field>
+        <field name="Power (Watts)">0.1W, 1/10W</field>
+        <field name="Resistance">160 Ohms</field>
+        <field name="Series">RC</field>
+        <field name="Size / Dimension">0.063" L x 0.032" W (1.60mm x 0.80mm)</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier Device Package">0603</field>
+        <field name="Supplier Part Number 1">311-160GRCT-ND</field>
+        <field name="Temperature Coefficient">±100ppm/°C</field>
+        <field name="Tolerance">±5%</field>
+      </fields>
+      <libsource lib="SFUSat-res" part="R_160R0_5%_0.1W_0603"/>
+      <sheetpath names="/SeriesBatteryCell/" tstamps="/5A9B3DD6/"/>
+      <tstamp>5AA3657D</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>0.33uF</value>
+      <footprint>SFUSat-cap:C_0805</footprint>
+      <fields>
+        <field name="Applications">Automotive</field>
+        <field name="Capacitance">0.33µF</field>
+        <field name="Categories">Capacitors - Ceramic Capacitors</field>
+        <field name="Failure Rate">-</field>
+        <field name="Features">-</field>
+        <field name="Height - Seated (Max)">-</field>
+        <field name="Lead Free Status / RoHS Status">Lead free / RoHS Compliant</field>
+        <field name="Lead Spacing">-</field>
+        <field name="Lead Style">-</field>
+        <field name="Manufacturer 1">TDK Corporation</field>
+        <field name="Manufacturer Part Number 1">CGA4J2X7R1H334K125AA</field>
+        <field name="Manufacturer Standard Lead Time 1">20 Weeks</field>
+        <field name="Mounting Type">Surface Mount, MLCC</field>
+        <field name="Operating Temperature">-55°C ~ 125°C</field>
+        <field name="Package / Case">0805 (2012 Metric)</field>
+        <field name="Part Status">Active</field>
+        <field name="Ratings">AEC-Q200</field>
+        <field name="Series">CGA</field>
+        <field name="Size / Dimension">0.079" L x 0.049" W (2.00mm x 1.25mm)</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier Part Number 1">445-5684-1-ND</field>
+        <field name="Temperature Coefficient">X7R</field>
+        <field name="Thickness (Max)">0.057" (1.45mm)</field>
+        <field name="Tolerance">±10%</field>
+        <field name="Voltage - Rated">50V</field>
+      </fields>
+      <libsource lib="SFUSat-cap" part="C_330n0_10%_50V_X7R_0805"/>
+      <sheetpath names="/SeriesBatteryCell/" tstamps="/5A9B3DD6/"/>
+      <tstamp>5AA367BC</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>1k</value>
+      <footprint>SFUSat-res:R_0402</footprint>
+      <fields>
+        <field name="Categories">Resistors - Chip Resistor - Surface Mount</field>
+        <field name="Composition">Thin Film</field>
+        <field name="Failure Rate">-</field>
+        <field name="Features">Automotive AEC-Q200</field>
+        <field name="Height - Seated (Max)">0.016" (0.40mm)</field>
+        <field name="Lead Free Status / RoHS Status">Lead free / RoHS Compliant</field>
+        <field name="Manufacturer 1">Panasonic Electronic Components</field>
+        <field name="Manufacturer Part Number 1">ERA-2AED102X</field>
+        <field name="Manufacturer Standard Lead Time 1">23 Weeks</field>
+        <field name="Number of Terminations">2</field>
+        <field name="Operating Temperature">-55°C ~ 155°C</field>
+        <field name="Package / Case">0402 (1005 Metric)</field>
+        <field name="Part Status">Active</field>
+        <field name="Power (Watts)">0.063W, 1/16W</field>
+        <field name="Resistance">1 kOhms</field>
+        <field name="Series">ERA-2A</field>
+        <field name="Size / Dimension">0.039" L x 0.020" W (1.00mm x 0.50mm)</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier Device Package">0402</field>
+        <field name="Supplier Part Number 1">P1.0KDECT-ND</field>
+        <field name="Temperature Coefficient">±25ppm/°C</field>
+        <field name="Tolerance">±0.5%</field>
+      </fields>
+      <libsource lib="SFUSat-res" part="R_1k0_0.5%_0.063W_0402"/>
+      <sheetpath names="/SeriesBatteryCell/" tstamps="/5A9B3DD6/"/>
+      <tstamp>5AA3619D</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="SFUSat" part="B3B-XH-A(LF)(SN)">
+      <description>CONN HEADER XH TOP 3POS 2.5MM</description>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">B3B-XH-A(LF)(SN)</field>
+        <field name="Applications">-</field>
+        <field name="Categories">Connectors, Interconnects - Rectangular Connectors - Headers, Male Pins</field>
+        <field name="Connector Type">Header</field>
+        <field name="Contact Finish - Mating">Tin</field>
+        <field name="Contact Finish - Post">Tin</field>
+        <field name="Contact Finish Thickness - Mating">-</field>
+        <field name="Contact Finish Thickness - Post">-</field>
+        <field name="Contact Length - Mating">-</field>
+        <field name="Contact Length - Post">0.134" (3.40mm)</field>
+        <field name="Contact Material">Brass</field>
+        <field name="Contact Shape">Square</field>
+        <field name="Contact Type">Male Pin</field>
+        <field name="Current Rating">3A</field>
+        <field name="Fastening Type">Detent Lock</field>
+        <field name="Features">-</field>
+        <field name="Ingress Protection">-</field>
+        <field name="Insulation Color">Natural</field>
+        <field name="Insulation Height">0.276" (7.00mm)</field>
+        <field name="Insulation Material">Polyamide (PA66), Nylon 6/6</field>
+        <field name="Lead Free Status / RoHS Status">Lead free / RoHS Compliant</field>
+        <field name="Manufacturer 1">JST Sales America Inc.</field>
+        <field name="Manufacturer Part Number 1">B3B-XH-A(LF)(SN)</field>
+        <field name="Manufacturer Standard Lead Time 1">14 Weeks</field>
+        <field name="Mated Stacking Heights">9.8mm</field>
+        <field name="Material Flammability Rating">UL94 V-0</field>
+        <field name="Mounting Type">Through Hole</field>
+        <field name="Number of Positions">3</field>
+        <field name="Number of Positions Loaded">All</field>
+        <field name="Number of Rows">1</field>
+        <field name="Operating Temperature">-25°C ~ 85°C</field>
+        <field name="Overall Contact Length">-</field>
+        <field name="Part Status">Active</field>
+        <field name="Pitch - Mating">0.098" (2.50mm)</field>
+        <field name="Row Spacing - Mating">-</field>
+        <field name="Series">XH</field>
+        <field name="Shrouding">Shrouded - 4 Wall</field>
+        <field name="Style">Board to Cable/Wire</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier Part Number 1">455-2248-ND</field>
+        <field name="Termination">Press-Fit, Solder</field>
+        <field name="Voltage Rating">250V</field>
+        <field name="Mating Part Number">XHP-3</field>
+        <field name="Mating Part Digikey">455-2219-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SFUSat-power" part="BQ29209">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">BQ29209</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VC2" type="power_in"/>
+        <pin num="2" name="VC1" type="power_in"/>
+        <pin num="3" name="VC1_CB" type="power_in"/>
+        <pin num="4" name="CD" type="passive"/>
+        <pin num="5" name="GND" type="power_in"/>
+        <pin num="6" name="CB_EN" type="input"/>
+        <pin num="7" name="VDD" type="power_in"/>
+        <pin num="8" name="OUT" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="Battery_Cell">
+      <description>single battery cell</description>
+      <fields>
+        <field name="Reference">BT</field>
+        <field name="Value">Battery_Cell</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+" type="passive"/>
+        <pin num="2" name="-" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SFUSat-cap" part="C_100n0_10%_25V_X7R_0603">
+      <description>CAP CER 0.1UF 25V X7R 0603</description>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_100n0_10%_25V_X7R_0603</field>
+        <field name="Footprint">SFUSat-cap:C_0603</field>
+        <field name="Applications">General Purpose</field>
+        <field name="Capacitance">0.1µF</field>
+        <field name="Categories">Capacitors - Ceramic Capacitors</field>
+        <field name="Features">-</field>
+        <field name="Height - Seated (Max)">-</field>
+        <field name="Lead Free Status / RoHS Status">Lead free / RoHS Compliant</field>
+        <field name="Lead Spacing">-</field>
+        <field name="Lead Style">-</field>
+        <field name="Manufacturer 1">Murata Electronics North America</field>
+        <field name="Manufacturer Part Number 1">GRM188R71E104KA01D</field>
+        <field name="Mounting Type">Surface Mount, MLCC</field>
+        <field name="Operating Temperature">-55°C ~ 125°C</field>
+        <field name="Package / Case">0603 (1608 Metric)</field>
+        <field name="Part Status">Active</field>
+        <field name="Ratings">-</field>
+        <field name="Series">GRM</field>
+        <field name="Size / Dimension">0.063" L x 0.032" W (1.60mm x 0.80mm)</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier Part Number 1">490-1524-1-ND</field>
+        <field name="Temperature Coefficient">X7R</field>
+        <field name="Thickness (Max)">0.035" (0.90mm)</field>
+        <field name="Tolerance">±10%</field>
+        <field name="Voltage - Rated">25V</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SFUSat-cap" part="C_330n0_10%_50V_X7R_0805">
+      <description>CAP CER 0.33UF 50V X7R 0805</description>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_330n0_10%_50V_X7R_0805</field>
+        <field name="Footprint">SFUSat-cap:C_0805</field>
+        <field name="Applications">Automotive</field>
+        <field name="Capacitance">0.33µF</field>
+        <field name="Categories">Capacitors - Ceramic Capacitors</field>
+        <field name="Failure Rate">-</field>
+        <field name="Features">-</field>
+        <field name="Height - Seated (Max)">-</field>
+        <field name="Lead Free Status / RoHS Status">Lead free / RoHS Compliant</field>
+        <field name="Lead Spacing">-</field>
+        <field name="Lead Style">-</field>
+        <field name="Manufacturer 1">TDK Corporation</field>
+        <field name="Manufacturer Part Number 1">CGA4J2X7R1H334K125AA</field>
+        <field name="Manufacturer Standard Lead Time 1">20 Weeks</field>
+        <field name="Mounting Type">Surface Mount, MLCC</field>
+        <field name="Operating Temperature">-55°C ~ 125°C</field>
+        <field name="Package / Case">0805 (2012 Metric)</field>
+        <field name="Part Status">Active</field>
+        <field name="Ratings">AEC-Q200</field>
+        <field name="Series">CGA</field>
+        <field name="Size / Dimension">0.079" L x 0.049" W (2.00mm x 1.25mm)</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier Part Number 1">445-5684-1-ND</field>
+        <field name="Temperature Coefficient">X7R</field>
+        <field name="Thickness (Max)">0.057" (1.45mm)</field>
+        <field name="Tolerance">±10%</field>
+        <field name="Voltage - Rated">50V</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SFUSat" part="PC104-8BIT">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">PC104-8BIT</field>
+      </fields>
+      <pins>
+        <pin num="1A" name="IOCHK" type="passive"/>
+        <pin num="1B" name="GND" type="passive"/>
+        <pin num="2A" name="SD7" type="passive"/>
+        <pin num="2B" name="RESET" type="BiDi"/>
+        <pin num="3A" name="SD6" type="passive"/>
+        <pin num="3B" name="+5V" type="BiDi"/>
+        <pin num="4A" name="SD5" type="passive"/>
+        <pin num="4B" name="IRQ9" type="BiDi"/>
+        <pin num="5A" name="SD3" type="passive"/>
+        <pin num="5B" name="-5V" type="BiDi"/>
+        <pin num="6A" name="SD3" type="passive"/>
+        <pin num="6B" name="DRQ2" type="BiDi"/>
+        <pin num="7A" name="SD2" type="passive"/>
+        <pin num="7B" name="-12V" type="BiDi"/>
+        <pin num="8A" name="SD1" type="passive"/>
+        <pin num="8B" name="SRDY" type="BiDi"/>
+        <pin num="9A" name="SD0" type="passive"/>
+        <pin num="9b" name="+12V" type="BiDi"/>
+        <pin num="10A" name="IOCHRDY" type="passive"/>
+        <pin num="10B" name="KEY" type="BiDi"/>
+        <pin num="11A" name="AEN" type="passive"/>
+        <pin num="11B" name="SMEMW" type="BiDi"/>
+        <pin num="12A" name="SA19" type="passive"/>
+        <pin num="12B" name="SMEMR" type="BiDi"/>
+        <pin num="13A" name="SA18" type="passive"/>
+        <pin num="13B" name="IOW" type="BiDi"/>
+        <pin num="14A" name="SA17" type="passive"/>
+        <pin num="14B" name="IOR" type="BiDi"/>
+        <pin num="15A" name="SA16" type="BiDi"/>
+        <pin num="15B" name="DACK3" type="BiDi"/>
+        <pin num="16A" name="SA15" type="BiDi"/>
+        <pin num="16B" name="DRQ3" type="BiDi"/>
+        <pin num="17A" name="SA14" type="BiDi"/>
+        <pin num="17B" name="DACK1" type="BiDi"/>
+        <pin num="18A" name="SA13" type="BiDi"/>
+        <pin num="18B" name="DRQ1" type="BiDi"/>
+        <pin num="19A" name="SA12" type="BiDi"/>
+        <pin num="19B" name="REFRESH" type="BiDi"/>
+        <pin num="20A" name="SA11" type="BiDi"/>
+        <pin num="20B" name="BCLK" type="BiDi"/>
+        <pin num="21A" name="SA10" type="BiDi"/>
+        <pin num="21B" name="IRQ7" type="BiDi"/>
+        <pin num="22A" name="SA9" type="BiDi"/>
+        <pin num="22B" name="IRQ6" type="BiDi"/>
+        <pin num="23A" name="SA8" type="BiDi"/>
+        <pin num="23B" name="IRQ5" type="BiDi"/>
+        <pin num="24A" name="SA7" type="BiDi"/>
+        <pin num="24B" name="IRQ4" type="BiDi"/>
+        <pin num="25A" name="SA6" type="BiDi"/>
+        <pin num="25B" name="IRQ3" type="BiDi"/>
+        <pin num="26A" name="SA5" type="BiDi"/>
+        <pin num="26B" name="DACK2" type="BiDi"/>
+        <pin num="27A" name="SA4" type="BiDi"/>
+        <pin num="27B" name="TC" type="BiDi"/>
+        <pin num="28A" name="SA3" type="BiDi"/>
+        <pin num="28B" name="BALE" type="BiDi"/>
+        <pin num="29A" name="SA2" type="BiDi"/>
+        <pin num="29B" name="+5V" type="BiDi"/>
+        <pin num="30A" name="SA1" type="BiDi"/>
+        <pin num="30B" name="OSC" type="BiDi"/>
+        <pin num="31A" name="SA0" type="BiDi"/>
+        <pin num="31B" name="GND" type="passive"/>
+        <pin num="32A" name="GND" type="passive"/>
+        <pin num="32B" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SFUSat" part="PC104PTH">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">PC104PTH</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SFUSat-res" part="R_100R0_1%_0.1W_0603">
+      <description>D11/CRCW0603-C 100 100R 1%</description>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_100R0_1%_0.1W_0603</field>
+        <field name="Footprint">SFUSat-res:R_0603</field>
+        <field name="Categories">Resistors - Chip Resistor - Surface Mount</field>
+        <field name="Composition">Thick Film</field>
+        <field name="Failure Rate">-</field>
+        <field name="Features">-</field>
+        <field name="Height - Seated (Max)">0.022" (0.55mm)</field>
+        <field name="Lead Free Status / RoHS Status">Lead free / RoHS Compliant</field>
+        <field name="Manufacturer 1">Vishay Dale</field>
+        <field name="Manufacturer Part Number 1">CRCW0603100RFKEAC</field>
+        <field name="Number of Terminations">2</field>
+        <field name="Operating Temperature">-55�C ~ 155�C</field>
+        <field name="Package / Case">0603 (1608 Metric)</field>
+        <field name="Part Status">Active</field>
+        <field name="Power (Watts)">0.1W, 1/10W</field>
+        <field name="Resistance">100 Ohms</field>
+        <field name="Series">CRCW-C</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier Device Package">0603</field>
+        <field name="Supplier Part Number 1">541-3951-1-ND</field>
+        <field name="Temperature Coefficient">�100ppm/�C</field>
+        <field name="Tolerance">�1%</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SFUSat-res" part="R_160R0_5%_0.1W_0603">
+      <description>RES SMD 160 OHM 5% 1/10W 0603</description>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_160R0_5%_0.1W_0603</field>
+        <field name="Footprint">SFUSat-res:R_0603</field>
+        <field name="Categories">Resistors - Chip Resistor - Surface Mount</field>
+        <field name="Composition">Thick Film</field>
+        <field name="Failure Rate">-</field>
+        <field name="Features">Moisture Resistant</field>
+        <field name="Height - Seated (Max)">0.022" (0.55mm)</field>
+        <field name="Lead Free Status / RoHS Status">Lead free / RoHS Compliant</field>
+        <field name="Manufacturer 1">Yageo</field>
+        <field name="Manufacturer Part Number 1">RC0603JR-07160RL</field>
+        <field name="Manufacturer Standard Lead Time 1">23 Weeks</field>
+        <field name="Number of Terminations">2</field>
+        <field name="Operating Temperature">-55°C ~ 155°C</field>
+        <field name="Package / Case">0603 (1608 Metric)</field>
+        <field name="Part Status">Active</field>
+        <field name="Power (Watts)">0.1W, 1/10W</field>
+        <field name="Resistance">160 Ohms</field>
+        <field name="Series">RC</field>
+        <field name="Size / Dimension">0.063" L x 0.032" W (1.60mm x 0.80mm)</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier Device Package">0603</field>
+        <field name="Supplier Part Number 1">311-160GRCT-ND</field>
+        <field name="Temperature Coefficient">±100ppm/°C</field>
+        <field name="Tolerance">±5%</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SFUSat-res" part="R_1k0_0.5%_0.063W_0402">
+      <description>RES SMD 1K OHM 0.5% 1/16W 0402</description>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_1k0_0.5%_0.063W_0402</field>
+        <field name="Footprint">SFUSat-res:R_0402</field>
+        <field name="Categories">Resistors - Chip Resistor - Surface Mount</field>
+        <field name="Composition">Thin Film</field>
+        <field name="Failure Rate">-</field>
+        <field name="Features">Automotive AEC-Q200</field>
+        <field name="Height - Seated (Max)">0.016" (0.40mm)</field>
+        <field name="Lead Free Status / RoHS Status">Lead free / RoHS Compliant</field>
+        <field name="Manufacturer 1">Panasonic Electronic Components</field>
+        <field name="Manufacturer Part Number 1">ERA-2AED102X</field>
+        <field name="Manufacturer Standard Lead Time 1">23 Weeks</field>
+        <field name="Number of Terminations">2</field>
+        <field name="Operating Temperature">-55°C ~ 155°C</field>
+        <field name="Package / Case">0402 (1005 Metric)</field>
+        <field name="Part Status">Active</field>
+        <field name="Power (Watts)">0.063W, 1/16W</field>
+        <field name="Resistance">1 kOhms</field>
+        <field name="Series">ERA-2A</field>
+        <field name="Size / Dimension">0.039" L x 0.020" W (1.00mm x 0.50mm)</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier Device Package">0402</field>
+        <field name="Supplier Part Number 1">P1.0KDECT-ND</field>
+        <field name="Temperature Coefficient">±25ppm/°C</field>
+        <field name="Tolerance">±0.5%</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SFUSat-res" part="R_250R0_0.01%_0.1W_0603">
+      <description>RES SMD 250 OHM 0.01% 1/10W 0603</description>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_250R0_0.01%_0.1W_0603</field>
+        <field name="Footprint">SFUSat-res:R_0603</field>
+        <field name="Categories">Resistors - Chip Resistor - Surface Mount</field>
+        <field name="Composition">Thin Film</field>
+        <field name="Failure Rate">-</field>
+        <field name="Features">Automotive AEC-Q200</field>
+        <field name="Height - Seated (Max)">0.022" (0.55mm)</field>
+        <field name="Lead Free Status / RoHS Status">Lead free / RoHS Compliant</field>
+        <field name="Manufacturer 1">Stackpole Electronics Inc.</field>
+        <field name="Manufacturer Part Number 1">RNCF0603TKY250R</field>
+        <field name="Manufacturer Standard Lead Time 1">10 Weeks</field>
+        <field name="Number of Terminations">2</field>
+        <field name="Operating Temperature">-55°C ~ 155°C</field>
+        <field name="Package / Case">0603 (1608 Metric)</field>
+        <field name="Part Status">Active</field>
+        <field name="Power (Watts)">0.1W, 1/10W</field>
+        <field name="Resistance">250 Ohms</field>
+        <field name="Series">RNCF</field>
+        <field name="Size / Dimension">0.061" L x 0.031" W (1.55mm x 0.80mm)</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier Device Package">0603</field>
+        <field name="Supplier Part Number 1">RNCF0603TKY250RCT-ND</field>
+        <field name="Temperature Coefficient">±5ppm/°C</field>
+        <field name="Tolerance">±0.01%</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="TEST_1P">
+      <description>point</description>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">TEST_1P</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="conn">
+      <uri>/usr/share/kicad/library/conn.lib</uri>
+    </library>
+    <library logical="device">
+      <uri>/usr/share/kicad/library/device.lib</uri>
+    </library>
+    <library logical="SFUSat-power">
+      <uri>/home/tobi/Cubesat/Battery/KiCad-Lib/SFUSat-power.lib</uri>
+    </library>
+    <library logical="SFUSat-cap">
+      <uri>/home/tobi/Cubesat/Battery/KiCad-Lib/SFUSat-cap.lib</uri>
+    </library>
+    <library logical="SFUSat-res">
+      <uri>/home/tobi/Cubesat/Battery/KiCad-Lib/SFUSat-res.lib</uri>
+    </library>
+    <library logical="SFUSat">
+      <uri>/home/tobi/Cubesat/Battery/KiCad-Lib/SFUSat.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/~CB_EN">
+      <node ref="J7" pin="1"/>
+      <node ref="U1" pin="6"/>
+      <node ref="R2" pin="1"/>
+      <node ref="J1" pin="13A"/>
+      <node ref="R1" pin="2"/>
+    </net>
+    <net code="2" name="/OVR_VLT">
+      <node ref="J1" pin="12A"/>
+      <node ref="U1" pin="8"/>
+      <node ref="J8" pin="1"/>
+    </net>
+    <net code="3" name="GND">
+      <node ref="R7" pin="2"/>
+      <node ref="J3" pin="1"/>
+      <node ref="J1" pin="32A"/>
+      <node ref="J2" pin="1"/>
+      <node ref="J4" pin="1"/>
+      <node ref="J5" pin="1"/>
+      <node ref="J1" pin="1B"/>
+      <node ref="J1" pin="32B"/>
+    </net>
+    <net code="4" name="Net-(J11-Pad1)">
+      <node ref="J11" pin="1"/>
+      <node ref="J6" pin="3"/>
+      <node ref="J12" pin="1"/>
+    </net>
+    <net code="5" name="Net-(J12-Pad2)">
+      <node ref="J12" pin="2"/>
+    </net>
+    <net code="6" name="/SeriesBatteryCell/PACK+">
+      <node ref="R1" pin="1"/>
+      <node ref="J6" pin="1"/>
+      <node ref="J9" pin="1"/>
+      <node ref="R3" pin="1"/>
+      <node ref="J11" pin="3"/>
+      <node ref="BT1" pin="1"/>
+      <node ref="R6" pin="1"/>
+    </net>
+    <net code="7" name="/SeriesBatteryCell/PACK-">
+      <node ref="J6" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="U1" pin="5"/>
+      <node ref="C2" pin="2"/>
+      <node ref="R2" pin="2"/>
+      <node ref="BT2" pin="2"/>
+      <node ref="J11" pin="2"/>
+      <node ref="J10" pin="1"/>
+      <node ref="R7" pin="1"/>
+      <node ref="J12" pin="3"/>
+    </net>
+    <net code="8" name="Net-(J1-Pad11A)">
+      <node ref="J1" pin="11A"/>
+    </net>
+    <net code="9" name="Net-(J1-Pad5B)">
+      <node ref="J1" pin="5B"/>
+    </net>
+    <net code="10" name="Net-(J1-Pad6B)">
+      <node ref="J1" pin="6B"/>
+    </net>
+    <net code="11" name="Net-(J1-Pad7B)">
+      <node ref="J1" pin="7B"/>
+    </net>
+    <net code="12" name="Net-(J1-Pad8B)">
+      <node ref="J1" pin="8B"/>
+    </net>
+    <net code="13" name="Net-(J1-Pad9b)">
+      <node ref="J1" pin="9b"/>
+    </net>
+    <net code="14" name="Net-(J1-Pad10A)">
+      <node ref="J1" pin="10A"/>
+    </net>
+    <net code="15" name="Net-(J1-Pad20A)">
+      <node ref="J1" pin="20A"/>
+    </net>
+    <net code="16" name="Net-(J1-Pad30A)">
+      <node ref="J1" pin="30A"/>
+    </net>
+    <net code="17" name="Net-(J1-Pad4B)">
+      <node ref="J1" pin="4B"/>
+    </net>
+    <net code="18" name="Net-(J1-Pad21A)">
+      <node ref="J1" pin="21A"/>
+    </net>
+    <net code="19" name="Net-(J1-Pad31A)">
+      <node ref="J1" pin="31A"/>
+    </net>
+    <net code="20" name="Net-(J1-Pad22A)">
+      <node ref="J1" pin="22A"/>
+    </net>
+    <net code="21" name="Net-(J1-Pad23A)">
+      <node ref="J1" pin="23A"/>
+    </net>
+    <net code="22" name="Net-(J1-Pad14A)">
+      <node ref="J1" pin="14A"/>
+    </net>
+    <net code="23" name="Net-(J1-Pad5A)">
+      <node ref="J1" pin="5A"/>
+    </net>
+    <net code="24" name="Net-(J1-Pad1A)">
+      <node ref="J1" pin="1A"/>
+    </net>
+    <net code="25" name="Net-(J1-Pad2A)">
+      <node ref="J1" pin="2A"/>
+    </net>
+    <net code="26" name="Net-(J1-Pad3A)">
+      <node ref="J1" pin="3A"/>
+    </net>
+    <net code="27" name="Net-(J1-Pad4A)">
+      <node ref="J1" pin="4A"/>
+    </net>
+    <net code="28" name="Net-(J1-Pad6A)">
+      <node ref="J1" pin="6A"/>
+    </net>
+    <net code="29" name="Net-(J1-Pad7A)">
+      <node ref="J1" pin="7A"/>
+    </net>
+    <net code="30" name="Net-(J1-Pad8A)">
+      <node ref="J1" pin="8A"/>
+    </net>
+    <net code="31" name="Net-(J1-Pad9A)">
+      <node ref="J1" pin="9A"/>
+    </net>
+    <net code="32" name="Net-(J1-Pad2B)">
+      <node ref="J1" pin="2B"/>
+    </net>
+    <net code="33" name="Net-(J1-Pad3B)">
+      <node ref="J1" pin="3B"/>
+    </net>
+    <net code="34" name="Net-(J1-Pad16B)">
+      <node ref="J1" pin="16B"/>
+    </net>
+    <net code="35" name="Net-(J1-Pad22B)">
+      <node ref="J1" pin="22B"/>
+    </net>
+    <net code="36" name="Net-(J1-Pad13B)">
+      <node ref="J1" pin="13B"/>
+    </net>
+    <net code="37" name="Net-(J1-Pad23B)">
+      <node ref="J1" pin="23B"/>
+    </net>
+    <net code="38" name="Net-(J1-Pad14B)">
+      <node ref="J1" pin="14B"/>
+    </net>
+    <net code="39" name="Net-(J1-Pad24B)">
+      <node ref="J1" pin="24B"/>
+    </net>
+    <net code="40" name="Net-(J1-Pad15B)">
+      <node ref="J1" pin="15B"/>
+    </net>
+    <net code="41" name="Net-(J1-Pad25B)">
+      <node ref="J1" pin="25B"/>
+    </net>
+    <net code="42" name="Net-(J1-Pad15A)">
+      <node ref="J1" pin="15A"/>
+    </net>
+    <net code="43" name="Net-(J1-Pad26B)">
+      <node ref="J1" pin="26B"/>
+    </net>
+    <net code="44" name="Net-(J1-Pad17B)">
+      <node ref="J1" pin="17B"/>
+    </net>
+    <net code="45" name="Net-(J1-Pad27B)">
+      <node ref="J1" pin="27B"/>
+    </net>
+    <net code="46" name="Net-(J1-Pad18B)">
+      <node ref="J1" pin="18B"/>
+    </net>
+    <net code="47" name="Net-(J1-Pad28B)">
+      <node ref="J1" pin="28B"/>
+    </net>
+    <net code="48" name="Net-(J1-Pad19B)">
+      <node ref="J1" pin="19B"/>
+    </net>
+    <net code="49" name="Net-(J1-Pad29B)">
+      <node ref="J1" pin="29B"/>
+    </net>
+    <net code="50" name="Net-(J1-Pad24A)">
+      <node ref="J1" pin="24A"/>
+    </net>
+    <net code="51" name="Net-(J1-Pad31B)">
+      <node ref="J1" pin="31B"/>
+    </net>
+    <net code="52" name="Net-(J1-Pad12B)">
+      <node ref="J1" pin="12B"/>
+    </net>
+    <net code="53" name="Net-(J1-Pad25A)">
+      <node ref="J1" pin="25A"/>
+    </net>
+    <net code="54" name="Net-(J1-Pad16A)">
+      <node ref="J1" pin="16A"/>
+    </net>
+    <net code="55" name="Net-(J1-Pad26A)">
+      <node ref="J1" pin="26A"/>
+    </net>
+    <net code="56" name="Net-(J1-Pad17A)">
+      <node ref="J1" pin="17A"/>
+    </net>
+    <net code="57" name="Net-(J1-Pad27A)">
+      <node ref="J1" pin="27A"/>
+    </net>
+    <net code="58" name="Net-(J1-Pad18A)">
+      <node ref="J1" pin="18A"/>
+    </net>
+    <net code="59" name="Net-(J1-Pad28A)">
+      <node ref="J1" pin="28A"/>
+    </net>
+    <net code="60" name="Net-(J1-Pad29A)">
+      <node ref="J1" pin="29A"/>
+    </net>
+    <net code="61" name="Net-(J1-Pad10B)">
+      <node ref="J1" pin="10B"/>
+    </net>
+    <net code="62" name="Net-(J1-Pad20B)">
+      <node ref="J1" pin="20B"/>
+    </net>
+    <net code="63" name="Net-(J1-Pad30B)">
+      <node ref="J1" pin="30B"/>
+    </net>
+    <net code="64" name="Net-(J1-Pad11B)">
+      <node ref="J1" pin="11B"/>
+    </net>
+    <net code="65" name="Net-(J1-Pad21B)">
+      <node ref="J1" pin="21B"/>
+    </net>
+    <net code="66" name="Net-(J1-Pad19A)">
+      <node ref="J1" pin="19A"/>
+    </net>
+    <net code="67" name="Net-(BT1-Pad2)">
+      <node ref="BT1" pin="2"/>
+      <node ref="BT2" pin="1"/>
+      <node ref="R4" pin="1"/>
+      <node ref="R5" pin="1"/>
+    </net>
+    <net code="68" name="Net-(R5-Pad2)">
+      <node ref="R5" pin="2"/>
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="69" name="Net-(C4-Pad1)">
+      <node ref="U1" pin="7"/>
+      <node ref="R6" pin="2"/>
+      <node ref="C4" pin="1"/>
+    </net>
+    <net code="70" name="Net-(C3-Pad1)">
+      <node ref="U1" pin="4"/>
+      <node ref="C3" pin="1"/>
+    </net>
+    <net code="71" name="Net-(C1-Pad1)">
+      <node ref="R3" pin="2"/>
+      <node ref="C1" pin="1"/>
+      <node ref="U1" pin="1"/>
+    </net>
+    <net code="72" name="Net-(C1-Pad2)">
+      <node ref="R4" pin="2"/>
+      <node ref="C2" pin="1"/>
+      <node ref="C1" pin="2"/>
+      <node ref="U1" pin="2"/>
+    </net>
+  </nets>
+</export>
