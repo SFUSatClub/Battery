@@ -1,5 +1,4 @@
 EESchema Schematic File Version 2
-LIBS:Battery-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -34,7 +33,6 @@ LIBS:SFUSat-power
 LIBS:SFUSat-cap
 LIBS:SFUSat-ind
 LIBS:SFUSat-res
-LIBS:Battery-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -73,7 +71,7 @@ F 5 "BQ29209DRBR" H 5950 2750 60  0001 C CNN "PN"
 $EndComp
 Text HLabel 7150 2750 2    60   Input ~ 0
 CB_EN
-Text HLabel 6700 2450 2    60   Output ~ 0
+Text HLabel 5700 5350 2    60   Output ~ 0
 OUTPUT
 $Comp
 L Battery_Cell BT1
@@ -100,9 +98,9 @@ F 4 "36-1042-ND" H 3875 3125 60  0001 C CNN "Digikey"
 	1    0    0    -1  
 $EndComp
 Text Notes 3050 2525 0    60   ~ 0
-4.35V maximum
+4.30V maximum
 Text Notes 3050 3100 0    60   ~ 0
-4.35V maximum
+4.30V maximum
 Wire Wire Line
 	3875 3400 7800 3400
 Wire Wire Line
@@ -116,7 +114,7 @@ Wire Wire Line
 Connection ~ 7400 3400
 Connection ~ 7400 2650
 Wire Wire Line
-	7400 2250 7400 2150
+	7400 2150 7400 2250
 Connection ~ 7400 2150
 Wire Wire Line
 	3875 2150 7800 2150
@@ -191,15 +189,13 @@ Wire Wire Line
 	7150 3175 7150 3400
 Connection ~ 7150 3400
 Wire Wire Line
-	7150 2875 7150 2550
+	7150 2550 7150 2875
 Wire Wire Line
 	7150 2250 7150 2150
 Connection ~ 7150 2150
 Connection ~ 7150 2850
 Text Notes 6725 1725 0    60   ~ 0
 At low SoC cell balancing should be \ndisabled to avoid premature discharge.
-Text Notes 3900 1950 0    60   ~ 0
-What is the max current through these resistors?
 $Comp
 L R_100R0_1%_0.1W_0603 R5
 U 1 1 5AA365FF
@@ -499,4 +495,113 @@ F 25 "±0.5%" H 7150 3025 50  0001 C CNN "Tolerance"
 	1    7150 3025
 	0    1    1    0   
 $EndComp
+Text GLabel 6700 2450 2    60   Input ~ 0
+OUT
+Text GLabel 5250 5650 0    60   Input ~ 0
+OUT
+$Comp
+L 2N7002ET1G Q1
+U 1 1 5AE3D3BF
+P 5600 5650
+F 0 "Q1" H 5535 5760 50  0000 R BNN
+F 1 "2N7002ET1G" H 5725 5655 50  0000 L CNN
+F 2 "SFUSat:SOT-23-3" H 5600 5650 50  0001 C CNN
+F 3 "" H 5600 5650 50  0001 C CNN
+F 4 "Discrete Semiconductor Products - Transistors - FETs, MOSFETs - Single" H 5600 5650 50  0001 C CNN "Categories"
+F 5 "260mA (Ta)" H 5600 5650 50  0001 C CNN "Current - Continuous Drain (Id) @ 25°C"
+F 6 "60V" H 5600 5650 50  0001 C CNN "Drain to Source Voltage (Vdss)"
+F 7 "4.5V, 10V" H 5600 5650 50  0001 C CNN "Drive Voltage (Max Rds On,  Min Rds On)"
+F 8 "-" H 5600 5650 50  0001 C CNN "FET Feature"
+F 9 "N-Channel" H 5600 5650 50  0001 C CNN "FET Type"
+F 10 "0.81nC @ 5V" H 5600 5650 50  0001 C CNN "Gate Charge (Qg) (Max) @ Vgs"
+F 11 "26.7pF @ 25V" H 5600 5650 50  0001 C CNN "Input Capacitance (Ciss) (Max) @ Vds"
+F 12 "Lead free / RoHS Compliant" H 5600 5650 50  0001 C CNN "Lead Free Status / RoHS Status"
+F 13 "ON Semiconductor" H 5600 5650 50  0001 C CNN "Manufacturer 1"
+F 14 "2N7002ET1G" H 5600 5650 50  0001 C CNN "Manufacturer Part Number 1"
+F 15 "46 Weeks" H 5600 5650 50  0001 C CNN "Manufacturer Standard Lead Time 1"
+F 16 "Surface Mount" H 5600 5650 50  0001 C CNN "Mounting Type"
+F 17 "-55°C ~ 150°C (TJ)" H 5600 5650 50  0001 C CNN "Operating Temperature"
+F 18 "TO-236-3, SC-59, SOT-23-3" H 5600 5650 50  0001 C CNN "Package / Case"
+F 19 "Active" H 5600 5650 50  0001 C CNN "Part Status"
+F 20 "300mW (Tj)" H 5600 5650 50  0001 C CNN "Power Dissipation (Max)"
+F 21 "2.5 Ohm @ 240mA, 10V" H 5600 5650 50  0001 C CNN "Rds On (Max) @ Id, Vgs"
+F 22 "-" H 5600 5650 50  0001 C CNN "Series"
+F 23 "Digi-Key" H 5600 5650 50  0001 C CNN "Supplier 1"
+F 24 "SOT-23-3 (TO-236)" H 5600 5650 50  0001 C CNN "Supplier Device Package"
+F 25 "2N7002ET1GOSCT-ND" H 5600 5650 50  0001 C CNN "Supplier Part Number 1"
+F 26 "MOSFET (Metal Oxide)" H 5600 5650 50  0001 C CNN "Technology"
+F 27 "±20V" H 5600 5650 50  0001 C CNN "Vgs (Max)"
+F 28 "2.5V @ 250µA" H 5600 5650 50  0001 C CNN "Vgs(th) (Max) @ Id"
+	1    5600 5650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5250 5650 5400 5650
+$Comp
+L R_10k0_1%_0.063W_0402 R8
+U 1 1 5AE3F7EE
+P 5600 5100
+F 0 "R8" H 5600 5150 50  0000 C BNN
+F 1 "R_10k0_1%_0.063W_0402" V 5550 4550 50  0000 C TNN
+F 2 "SFUSat-res:R_0402" H 5600 5100 50  0001 C CNN
+F 3 "" H 5600 5100 50  0001 C CNN
+F 4 "Resistors - Chip Resistor - Surface Mount" H 5600 5100 50  0001 C CNN "Categories"
+F 5 "Thick Film" H 5600 5100 50  0001 C CNN "Composition"
+F 6 "-" H 5600 5100 50  0001 C CNN "Failure Rate"
+F 7 "Automotive AEC-Q200" H 5600 5100 50  0001 C CNN "Features"
+F 8 "0.016\" (0.40mm)" H 5600 5100 50  0001 C CNN "Height - Seated (Max)"
+F 9 "Lead free / RoHS Compliant" H 5600 5100 50  0001 C CNN "Lead Free Status / RoHS Status"
+F 10 "Vishay Dale" H 5600 5100 50  0001 C CNN "Manufacturer 1"
+F 11 "CRCW040210K0FKED" H 5600 5100 50  0001 C CNN "Manufacturer Part Number 1"
+F 12 "2" H 5600 5100 50  0001 C CNN "Number of Terminations"
+F 13 "-55�C ~ 155�C" H 5600 5100 50  0001 C CNN "Operating Temperature"
+F 14 "0402 (1005 Metric)" H 5600 5100 50  0001 C CNN "Package / Case"
+F 15 "Active" H 5600 5100 50  0001 C CNN "Part Status"
+F 16 "0.063W, 1/16W" H 5600 5100 50  0001 C CNN "Power (Watts)"
+F 17 "10 kOhms" H 5600 5100 50  0001 C CNN "Resistance"
+F 18 "CRCW" H 5600 5100 50  0001 C CNN "Series"
+F 19 "0.039\" L x 0.020\" W (1.00mm x 0.50mm)" H 5600 5100 50  0001 C CNN "Size / Dimension"
+F 20 "Digi-Key" H 5600 5100 50  0001 C CNN "Supplier 1"
+F 21 "0402" H 5600 5100 50  0001 C CNN "Supplier Device Package"
+F 22 "541-10.0KLCT-ND" H 5600 5100 50  0001 C CNN "Supplier Part Number 1"
+F 23 "�100ppm/�C" H 5600 5100 50  0001 C CNN "Temperature Coefficient"
+F 24 "�1%" H 5600 5100 50  0001 C CNN "Tolerance"
+	1    5600 5100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5600 5250 5600 5450
+Wire Wire Line
+	5700 5350 5600 5350
+Connection ~ 5600 5350
+$Comp
+L +3V3 #PWR010
+U 1 1 5AE4013E
+P 5600 4900
+F 0 "#PWR010" H 5600 4750 50  0001 C CNN
+F 1 "+3V3" H 5600 5040 50  0000 C CNN
+F 2 "" H 5600 4900 50  0001 C CNN
+F 3 "" H 5600 4900 50  0001 C CNN
+	1    5600 4900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5600 4950 5600 4900
+$Comp
+L GND #PWR011
+U 1 1 5AE4078B
+P 5600 5900
+F 0 "#PWR011" H 5600 5650 50  0001 C CNN
+F 1 "GND" H 5600 5750 50  0000 C CNN
+F 2 "" H 5600 5900 50  0001 C CNN
+F 3 "" H 5600 5900 50  0001 C CNN
+	1    5600 5900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5600 5850 5600 5900
+Text Notes 3350 5900 0    60   ~ 0
+Output of BQ20209 is the Pack+ (6-10V)
+Text Notes 5850 5100 0    60   ~ 0
+Only populate this resistor on 1 Battery board
 $EndSCHEMATC

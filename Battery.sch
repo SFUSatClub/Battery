@@ -1,5 +1,4 @@
 EESchema Schematic File Version 2
-LIBS:Battery-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -34,7 +33,6 @@ LIBS:SFUSat-power
 LIBS:SFUSat-cap
 LIBS:SFUSat-ind
 LIBS:SFUSat-res
-LIBS:Battery-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -492,4 +490,17 @@ F 3 "" H 5675 2450 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5675 2450 5750 2450
+$Comp
+L +3V3 #PWR09
+U 1 1 5AE3DFE6
+P 3200 850
+F 0 "#PWR09" H 3200 700 50  0001 C CNN
+F 1 "+3V3" H 3200 990 50  0000 C CNN
+F 2 "" H 3200 850 50  0001 C CNN
+F 3 "" H 3200 850 50  0001 C CNN
+	1    3200 850 
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3200 850  3200 850 
 $EndSCHEMATC
